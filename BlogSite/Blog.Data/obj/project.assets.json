@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elsha\\OneDrive\\Documents\\Backend Projects\\Backend\\BlogSite\\Blog.Data\\Blog.Data.csproj",
+      "projectUniqueName": "C:\\Users\\elsha\\OneDrive\\Documents\\Backend Projects\\BlogSite\\BlogSite\\Blog.Data\\Blog.Data.csproj",
       "projectName": "Blog.Data",
-      "projectPath": "C:\\Users\\elsha\\OneDrive\\Documents\\Backend Projects\\Backend\\BlogSite\\Blog.Data\\Blog.Data.csproj",
+      "projectPath": "C:\\Users\\elsha\\OneDrive\\Documents\\Backend Projects\\BlogSite\\BlogSite\\Blog.Data\\Blog.Data.csproj",
       "packagesPath": "C:\\Users\\elsha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elsha\\OneDrive\\Documents\\Backend Projects\\Backend\\BlogSite\\Blog.Data\\obj\\",
+      "outputPath": "C:\\Users\\elsha\\OneDrive\\Documents\\Backend Projects\\BlogSite\\BlogSite\\Blog.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\elsha\\AppData\\Roaming\\NuGet\\NuGet.Config",

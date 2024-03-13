@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Blog.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Blog.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Blog.Core/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Core/Blog.Core.csproj",
+      "msbuildProject": "../Blog.Core/Blog.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Blog.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\elsha\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elsha\\OneDrive\\Documents\\Backend Projects\\Backend\\BlogSite\\Blog.Entity\\Blog.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\elsha\\OneDrive\\Documents\\Backend Projects\\BlogSite\\BlogSite\\Blog.Entity\\Blog.Entity.csproj",
       "projectName": "Blog.Entity",
-      "projectPath": "C:\\Users\\elsha\\OneDrive\\Documents\\Backend Projects\\Backend\\BlogSite\\Blog.Entity\\Blog.Entity.csproj",
+      "projectPath": "C:\\Users\\elsha\\OneDrive\\Documents\\Backend Projects\\BlogSite\\BlogSite\\Blog.Entity\\Blog.Entity.csproj",
       "packagesPath": "C:\\Users\\elsha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elsha\\OneDrive\\Documents\\Backend Projects\\Backend\\BlogSite\\Blog.Entity\\obj\\",
+      "outputPath": "C:\\Users\\elsha\\OneDrive\\Documents\\Backend Projects\\BlogSite\\BlogSite\\Blog.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\elsha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +52,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\elsha\\OneDrive\\Documents\\Backend Projects\\BlogSite\\BlogSite\\Blog.Core\\Blog.Core.csproj": {
+              "projectPath": "C:\\Users\\elsha\\OneDrive\\Documents\\Backend Projects\\BlogSite\\BlogSite\\Blog.Core\\Blog.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

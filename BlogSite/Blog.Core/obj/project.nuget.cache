@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7NL1D8aI/oEOWAnTLwyqJQd9qFQrxAn4tTXcTToM5Dd6jeTSC4fMDjFubRz+wVs5CD3I+ijRCCK7BFW3QSSlGA==",
+  "dgSpecHash": "pZqNGSQZGwj+9LQ7BUApIFYyZKJVcZBfPv+TQVFrW+NnQcLlLvll9Xu4AV8PkmopniikMR/wIWT6Tob+wiV79A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\elsha\\OneDrive\\Documents\\Backend Projects\\Backend\\BlogSite\\Blog.Core\\Blog.Core.csproj",
+  "projectFilePath": "C:\\Users\\elsha\\OneDrive\\Documents\\Backend Projects\\BlogSite\\BlogSite\\Blog.Core\\Blog.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
